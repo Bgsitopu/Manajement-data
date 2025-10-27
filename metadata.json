@@ -1,0 +1,5 @@
+{
+  "name": "Kelas 7C Student Management",
+  "description": "A real-time, interactive dashboard for managing student data for Kelas 7C. This application allows for adding, editing, deleting, and filtering student information, with dynamic charts for data visualization and customizable settings.",
+  "requestFramePermissions": []
+}

@@ -10,7 +10,6 @@ const DataSiswaPage = lazy(() => import('./pages/DataSiswaPage'));
 const StatistikPage = lazy(() => import('./pages/StatistikPage'));
 const SettingsPage = lazy(() => import('./pages/SettingsPage'));
 const AboutPage = lazy(() => import('./pages/AboutPage'));
-const TutorPage = lazy(() => import('./pages/TutorPage'));
 
 // Fallback component while lazy-loaded pages are loading
 const PageLoader: React.FC = () => (
@@ -67,8 +66,6 @@ const App: React.FC = () => {
         return <SettingsPage />;
       case 'about':
         return <AboutPage />;
-      case 'tutor':
-        return <TutorPage setCurrentPage={setCurrentPage} />;
       default:
         return <HomePage students={students} setStudents={setStudents} tableView={tableView} setTableView={setTableView} />;
     }
